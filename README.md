@@ -1,2 +1,3 @@
 # `~/.*`
-My dot files used in Linux Mint
+
+My dot files used in Linux Mint.
