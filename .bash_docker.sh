@@ -21,7 +21,7 @@ if command -v docker >/dev/null 2>&1; then
 
   function drmid-fn {
     imgs=$(docker images -qf dangling=true)
-    [ ! -z "$imgs" ] && docker rmi "$imgs" || echo "no dangling images."
+    [ ! -z "$imgs" ] && docker rmi $imgs || echo "no dangling images."
   }
 
   function drmce-fn {
