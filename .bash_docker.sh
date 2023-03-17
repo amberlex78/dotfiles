@@ -44,6 +44,7 @@ if command -v docker >/dev/null 2>&1; then
   alias dpsaf="docker ps -a --format 'table {{.ID}}\\t{{.Names}}\\t{{.Status}}\\t{{.Ports}}'"
   
   alias drmi="docker rmi"
+  alias drm="docker rm"
 
   alias dnls="docker network ls"
   alias dnrm="docker network rm"
