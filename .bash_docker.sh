@@ -28,9 +28,14 @@ if command -v docker >/dev/null 2>&1; then
     docker rm $(docker ps --all -qf status=exited)
   }
 
+  function drmcr-fn {
+    docker rm -f $(docker ps -aq)
+  }
+
 
   alias drmid=drmid-fn
   alias drmce=drmce-fn
+  alias drmcr=drmcr-fn
 
   alias di="docker images"
   alias dip=dip-fn
