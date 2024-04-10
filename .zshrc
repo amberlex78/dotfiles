@@ -1,3 +1,5 @@
+# macOS Catalina 10.15.7
+
 PS1="%n %1~ %# "
 
 alias c="clear"
