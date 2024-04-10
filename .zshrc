@@ -6,19 +6,15 @@ alias c="clear"
 alias ll="gls -lh --color --group-directories-first"
 alias la="gls -lha --color --group-directories-first"
 
-# Node
+# Node (example: npm -v, npx -v)
 export PATH="/usr/local/opt/node@20/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/node@120/lib"
 export CPPFLAGS="-I/usr/local/opt/node@20/include"
 
-# export PATH="/usr/local/opt/node@18/bin:$PATH"
-# export LDFLAGS="-L/usr/local/opt/node@18/lib"
-# export CPPFLAGS="-I/usr/local/opt/node@18/include"
-
-# MySQL
+# MySQL (example: mysql -V)
 export PATH="/usr/local/opt/mysql@8.0/bin:$PATH"
 
-# PostgreSQL
+# PostgreSQL (example: psql -V)
 export PATH="/usr/local/Cellar/libpq/16.0/bin:$PATH"
 
 # PHP
