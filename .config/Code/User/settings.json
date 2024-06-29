@@ -16,10 +16,10 @@
 
   // Font
   "editor.tabSize": 2,
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.lineHeight": 25,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Fira Code, JetBrains Mono, DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono, DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
 
   // Format
   "editor.defaultFormatter": "esbenp.prettier-vscode",
