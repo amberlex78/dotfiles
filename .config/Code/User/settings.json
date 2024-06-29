@@ -24,10 +24,11 @@
   "editor.formatOnSave": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
 
   // Spell checker
   "cSpell.language": "en,ru",
-  "cSpell.userWords": ["nuxt"],
+  "cSpell.userWords": ["nuxt", "parens"],
   "cSpell.enabled": true,
   "cSpell.enableFiletypes": [
     "blade",
