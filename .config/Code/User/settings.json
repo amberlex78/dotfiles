@@ -1,15 +1,51 @@
 {
+  // Main editor settings
   "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
+
+  // Appearance
+  "window.commandCenter": false,
+  "editor.glyphMargin": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.accessibilitySupport": "off",
+
+  // Wrapping
+  "editor.wordWrap": "bounded",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 120,
+
+  // Font
+  "editor.tabSize": 2,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 25,
+
+  // Format
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
 
-  // Auto closing tags
-  "html.autoClosingTags": true,
-  "javascript.autoClosingTags": true,
-  "typescript.autoClosingTags": true,
+  // Spell checker
+  "cSpell.language": "en,ru",
+  "cSpell.userWords": ["nuxt"],
+  "cSpell.enabled": true,
+  "cSpell.enableFiletypes": [
+    "blade",
+    "jsx",
+    "tsx",
+    "ts",
+    "js",
+    "scss",
+    "sass",
+    "vue"
+  ],
 
-  // Explorer
-  "explorer.compactFolders": false
+  // Misc
+  "files.exclude": {
+    "**/.idea": true,
+    "**/.next": true,
+    "**/.nuxt": true
+  },
+
+  "diffEditor.ignoreTrimWhitespace": false
 }
