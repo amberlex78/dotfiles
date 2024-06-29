@@ -30,7 +30,13 @@
 
   // Spell checker
   "cSpell.language": "en,ru",
-  "cSpell.userWords": ["nuxt", "parens"],
+  "cSpell.userWords": [
+    "codeium",
+    "nuxt",
+    "Organisation",
+    "organisations",
+    "parens"
+  ],
   "cSpell.enabled": true,
   "cSpell.enableFiletypes": [
     "blade",
@@ -51,5 +57,7 @@
   },
 
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "Operator Mono Dark Modern Theme"
+  "workbench.colorTheme": "Operator Mono Dark Modern Theme",
+  "codeium.enableCodeLens": false,
+  "git.confirmSync": false
 }
