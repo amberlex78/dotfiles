@@ -9,9 +9,9 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.accessibilitySupport": "off",
 
-	//Terminal
-	"terminal.integrated.fontSize": 14,
-	"terminal.integrated.tabs.enabled": false,
+  //Terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.tabs.enabled": false,
 
   // Wrapping
   "editor.wordWrap": "bounded",
