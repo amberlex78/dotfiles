@@ -63,5 +63,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.colorTheme": "Operator Mono Dark Modern Theme",
   "codeium.enableCodeLens": false,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "update.showReleaseNotes": false,
+  "update.mode": "none"
 }
