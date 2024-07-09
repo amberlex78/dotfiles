@@ -47,7 +47,7 @@
     "organisation",
     "organisations",
     "parens",
-    "typesense",
+    "typesense"
   ],
   "cSpell.enabled": true,
   "cSpell.enableFiletypes": [
@@ -76,5 +76,5 @@
   "explorer.confirmDelete": false,
   "update.showReleaseNotes": false,
   "update.mode": "none",
-  "diffEditor.renderSideBySide": false,
+  "diffEditor.renderSideBySide": false
 }
