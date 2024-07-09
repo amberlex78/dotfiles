@@ -11,7 +11,6 @@
 
   //Terminal
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.tabs.enabled": false,
 
   // Wrapping
   "editor.wordWrap": "bounded",
@@ -31,15 +30,23 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
 
   // Spell checker
   "cSpell.language": "en,ru",
   "cSpell.userWords": [
+    "adminer",
+    "autoincrement",
     "codeium",
+    "datasource",
+    "nestjs",
     "nuxt",
-    "Organisation",
+    "organisation",
     "organisations",
-    "parens"
+    "parens",
+    "Typesense"
   ],
   "cSpell.enabled": true,
   "cSpell.enableFiletypes": [
@@ -50,7 +57,8 @@
     "js",
     "scss",
     "sass",
-    "vue"
+    "vue",
+    "prisma"
   ],
 
   // Misc
@@ -64,6 +72,7 @@
   "workbench.colorTheme": "Operator Mono Dark Modern Theme",
   "codeium.enableCodeLens": false,
   "git.confirmSync": false,
+  "explorer.confirmDelete": false,
   "update.showReleaseNotes": false,
   "update.mode": "none"
 }
