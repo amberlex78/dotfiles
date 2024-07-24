@@ -8,15 +8,21 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.accessibilitySupport": "off",
+  "editor.multiCursorModifier": "ctrlCmd", // ?
 
   //Terminal
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.tabs.enabled": false,
 
   // Wrapping
   "editor.wordWrap": "bounded",
   "editor.wrappingIndent": "same",
   "editor.wordWrapColumn": 120,
+
+  // Tags
+  "editor.linkedEditing": true,
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
 
   // Font
   "editor.tabSize": 2,
@@ -38,14 +44,11 @@
   // Spell checker
   "cSpell.language": "en,ru",
   "cSpell.userWords": [
-    "adminer",
     "autoincrement",
     "codeium",
     "datasource",
     "nestjs",
     "nuxt",
-    "organisation",
-    "organisations",
     "parens",
     "typesense"
   ],
@@ -70,11 +73,11 @@
   },
 
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "Operator Mono Dark Modern Theme",
   "codeium.enableCodeLens": false,
   "git.confirmSync": false,
   "explorer.confirmDelete": false,
   "update.showReleaseNotes": false,
   "update.mode": "none",
-  "diffEditor.renderSideBySide": false
+  "diffEditor.renderSideBySide": false,
+  "workbench.colorTheme": "Operator Mono Dark Modern Theme"
 }
