@@ -45,8 +45,8 @@ if command -v docker >/dev/null 2>&1; then
   alias dpsa="docker ps -a"
 
   # Format list
-  alias dpsf="docker ps --format 'table {{.ID}}\\t{{.Names}}\\t{{.Status}}\\t{{.Ports}}'"
-  alias dpsaf="docker ps -a --format 'table {{.ID}}\\t{{.Names}}\\t{{.Status}}\\t{{.Ports}}'"
+  alias dpsf="docker ps --format 'table {{.ID}}\\t{{.Image}}\\t{{.Names}}\\t{{.Ports}}'"
+  alias dpsaf="docker ps -a --format 'table {{.ID}}\\t{{.Image}}\\t{{.Names}}\\t{{.Ports}}'"
   
   alias drmi="docker rmi"
   alias drm="docker rm"

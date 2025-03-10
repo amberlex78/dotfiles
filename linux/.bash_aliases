@@ -18,3 +18,6 @@ alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 
 # Artisan
 alias pa="php artisan"
+
+# Pint
+alias pint='[ -f pint ] && php pint || php vendor/bin/pint'
